@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url('images/designImg.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.card {
+    padding: 25px;
+}
