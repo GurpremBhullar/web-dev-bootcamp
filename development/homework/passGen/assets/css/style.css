@@ -1,0 +1,38 @@
+  
+body {background-color: chartreuse; padding: 2em;}
+header, header h1 {text-align: center; margin-bottom: 25px;}
+.main-box {
+    background-color: #38b43e;
+    padding: 2em;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 6px 18px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 18px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 18px 1px rgba(0,0,0,0.75);
+}
+textarea {
+    border: 2px dashed gray;
+    width: 90%;
+    border-radius: 4px;
+    padding: 1em;
+    text-align: center;
+}
+button#create {
+    background-color: red;
+    color: #fff;
+    border: darkblue;
+    padding: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+button#copy {
+    padding: 10px;
+    border-radius: 22px;
+    font-weight: bold;
+    border: 1px solid;
+    margin-left: 2%;
+}
+
+@media (max-width: 482px) {
+    button#generate {margin-bottom: 20px;}
+}
