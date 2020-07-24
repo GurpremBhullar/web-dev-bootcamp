@@ -14,7 +14,7 @@ $(document).ready(function () {
         console.log(response);
         
         $("#locationName").text(response.name); 
-        $("#locationDate").text(current_Date);  
+        $("#locatoinDate").text(current_Date);  
         $("#humidity").text("Humidity: " + response.main.humidity);
         $("#windSpeed").text("Wind Speed: " + response.wind.speed);
 

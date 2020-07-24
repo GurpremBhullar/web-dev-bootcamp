@@ -28,9 +28,9 @@ function home() {
       type: "list",
       message: "What would you like to do?",
       choices: [
-        "View all departments",
-        "View all roles", 
-        "View all employees",
+        "View departments",
+        "View roles", 
+        "View employees",
         "Add department",
         "Add role",
         "Add employee", 
@@ -40,15 +40,15 @@ function home() {
     }) 
     .then(function(answer) {
         switch (answer.home) {
-        case "View all departments":
+        case "View departments":
           viewDepts();
           break;
   
-        case "View all roles":
+        case "View roles":
           viewRoles();
           break;
   
-        case "View all employees":
+        case "View employees":
           viewEmployees();
           break;
   
@@ -68,7 +68,7 @@ function home() {
          UpdateEmplRole();
          break; 
 
-        case "eXit":
+        case "exit":
         connection.end();
         break;
         } 
@@ -124,23 +124,23 @@ function home() {
         {
           name:'title',
           type: 'input', 
-          message: 'What is the title of your new role?' 
+          message: 'What is the title of your role?' 
         }, 
         {
           name:'salary',
           type: 'input', 
-          message: 'What is the salary of your new role?' 
+          message: 'What is the salary of your role?' 
         },  
         {
           name:'deptSelect',
           type: 'list', 
-          message: 'Which department does this role fall under',
+          message: 'Which department are a apart of',
           choices: function () {
-            let deptArr = [];
+            let deptOne = [];
             for (let i = 0; i < res.length; i++) {
-              deptArr.push(res[i].name);
+              deptOne.push(res[i].name);
               }
-              return deptArr;
+              return deptOne;
           },
       }
       ]).then(function(answer) { 
@@ -187,9 +187,9 @@ function home() {
                  type: "list", 
                  message: "Role of employee:",
                  choices: function() {
-                  var roleArr = [];
+                  var roleOne = [];
                   for (let i = 0; i < res.length; i++) {
-                      roleArr.push(res[i].title);
+                      roleOne.push(res[i].title);
                   }
                   return roleArr;
                   },
@@ -218,4 +218,3 @@ function home() {
               })
       })
   }
-  //function UpdateEmplRole(){}
