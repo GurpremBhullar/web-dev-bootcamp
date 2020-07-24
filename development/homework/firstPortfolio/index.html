@@ -1,51 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS Portfolio V2.0</title> 
+  
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> 
+    
 
-<head>
-  <title>Gurprem Bhullar</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  </head>
+  <body>
 
-<body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Gurprem Bhullar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-  </nav>
-  <div class="jumbotron text-center" style="margin-bottom: 0;">
-    <h1>Gurprem Bhullar</h1>
-    <h3><b>welcome to my awesome page!</b></h3>
-  </div>
-  <div class ="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>Personal Photo</h3>
-        <img class="img-fluid" src="images/mainImage.jpg" alt="Me"/>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left" style="background-color: darkred;">
+          <div class="row column">
+            <br>
+            <img class="thumbnail" src="assets/img/CS-casual-headshot.jpg">
+            <ul class="text-justify">
+              <li style="color: gainsboro;">
+                I was a deferred biologist turned delivery person, and am currently working to make a programmer/developer out of myself.
+              </li> 
+              <br> 
+              <li style="color: gainsboro;">
+                I hope to eventually transition into a position within the life science/biotech/pharmaceutical sectors, with involvement in
+                bioinformatics, computational/systems/synthetic biology, data science, and/or information tech.
+              </li>
+              <br> 
+              <li style="color: gainsboro;">
+                I was born and raised in West Haven, CT.
+              </li> 
+              <br>
+              <li style="color: gainsboro;">
+                Some of my hobbies include guitar, piano, reading, and writing.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <span class="title-bar-title">Charles Sisson</span>
+            </div>
+          </div>
+          <div class="callout primary" style="background-color: red;">
+            <div class="row column">
+              <h1 class="text-center"><b>Gurprem Bhullar</b></h1> 
+              <h2 class="text-center"><b>Welcome</b></h1>
+              <p class="lead">Below are some of my projects</p>
+            </div>
+          </div>
+
+          <div class="row small-up-2 medium-up-3 large-up-4">
+            <div class="column"> 
+            <div class="column"> 
+              <a href="https://github.com/GurpremBhullar/web-dev-bootcamp/tree/master/development/homework" target="blank">
+              </a>
+          <hr>
+
+          <div class="row">
+              <h3 class="text-center"><b>Contact Me</b></h3> 
+              <div class="expanded button-group">
+                <a class="secondary button" href="https://www.linkedin.com/in/gurprem-bhullar-13b6a4119//" target="blank">LinkedIn</a>
+                <a class="secondary button" href="https://github.com/GurpremBhullar" target="blank">GitHub</a>
+                </div>
+            </div>
+            
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class ="col-sm-8">
-    <h3>About Me</h3>
-    <p>my name is gurprem bhullar i have a masters in CS and a cert in coding</p>
-  </div>
-  <div class ="footer">
-    
-  </div>
-</body>
-</html>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  </body>
