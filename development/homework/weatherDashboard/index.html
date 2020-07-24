@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CS Weather Dashboard</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-default bg-danger navbar-fixed-top">
+    <div class="container d-flex justify-content-center">
+      <h1 class="text-center">Gurprem's Weather Dashboard</h1>
+    </div>
+  </nav>
+
+  <div class= "container-fluid">
+      <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center">Enter the location you would like the weather for</h3>
+            <div class="input-group mb-3">
+                <input type="text" id="city-input-form" class="form-control" placeholder="" aria-label="city-input" aria-describedby="button-addon2" class="input-group-append">
+                  <button class="btn btn-outline-primary" type="button" id="city-search-button">🔍</button>
+                </div>
+              </div> 
+              <div class= "card">
+                <ul class= "list-group list-group-flush list" id="locationStuff">
+
+                </ul>
+              </div>
+          </div>
+
+          <div class= "col-md-6"> 
+            <div class= "container" id="currentWeather">
+              <h2 class= "text-center" id= "locationName"></h2> 
+              <h2 class= "text-center" id= "locationDate"></h2> 
+              <div id= "temperature"></div>
+              <div id= "humidity"></div>
+              <div id= "windSpeed"></div> 
+              <div id= "uvIndex"></div> 
+           </div> 
+            <div class= "container" id="futureForecasts">
+        
+            </div>
+          </div> 
+      </div>
+  </div> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> 
+ <script src="weather-dashboard.js"></script>
+</body>
+</html>
