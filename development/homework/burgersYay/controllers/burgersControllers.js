@@ -6,9 +6,9 @@ var cat = require("../models/burgers.js");
 
 
 router.get("/", function(req, res) {
-  cat.all(function(data) {
+  burgers.all(function(data) {
     var hbsObject = {
-      cats: data
+      burgers: data
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
@@ -16,7 +16,7 @@ router.get("/", function(req, res) {
 });
 
 router.post("/api/burgers", function(req, res) {
-  cat.create([
+  burgers.create([
     "name", "indianVeg"
   ], [
     req.body.name, req.body.indianVeg
