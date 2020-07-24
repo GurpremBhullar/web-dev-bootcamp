@@ -32,7 +32,7 @@ async function initExercise() {
 
 initExercise();
 
-function handleWorkoutTypeChange(event) {
+function WorkoutTypeChange(event) {
   workoutType = event.target.value;
 
   if (workoutType === "cardio") {
@@ -95,7 +95,7 @@ function validateInputs() {
   }
 }
 
-async function handleFormSubmit(event) {
+async function handleFormSub(event) {
   event.preventDefault();
 
   let workoutData = {};
@@ -114,7 +114,7 @@ async function handleFormSubmit(event) {
     workoutData.duration = Number(resistanceDurationInput.value.trim());
   }
 
-  await API.addExercise(workoutData);
+  await API.commmitExercise(workoutData);
   clearInputs();
   toast.classList.add("success");
 }
@@ -126,7 +126,7 @@ function handleToastAnimationEnd() {
   }
 }
 
-function clearInputs() {
+function deleteInputs() {
   cardioNameInput.value = "";
   nameInput.value = "";
   setsInput.value = "";

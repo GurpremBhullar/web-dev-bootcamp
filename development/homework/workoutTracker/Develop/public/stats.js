@@ -1,4 +1,3 @@
-// get all workout data from back-end
 
 fetch("/api/workouts/range")
   .then(response => {
@@ -59,8 +58,8 @@ function populateChart(data) {
       datasets: [
         {
           label: "Workout Duration In Minutes",
-          backgroundColor: "red",
-          borderColor: "red",
+          backgroundColor: "blue",
+          borderColor: "blue",
           data: durations,
           fill: false
         }

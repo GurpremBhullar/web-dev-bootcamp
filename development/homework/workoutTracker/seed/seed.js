@@ -12,11 +12,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bicep Curl",
-        duration: 20,
-        weight: 100,
-        reps: 10,
-        sets: 4
+        name: "Jump",
+        duration: 10,
+        weight: 180,
+        reps: 20,
+        sets: 2
       }
     ]
   },
@@ -25,11 +25,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Lateral Pull",
-        duration: 20,
-        weight: 300,
-        reps: 10,
-        sets: 4
+        name: "Sit",
+        duration: 40,
+        weight: 120,
+        reps: 50,
+        sets: 3
       }
     ]
   },
@@ -38,11 +38,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Push Press",
-        duration: 25,
-        weight: 185,
-        reps: 8,
-        sets: 4
+        name: "Push ups",
+        duration: 35,
+        weight: 125,
+        reps: 4,
+        sets: 5
       }
     ]
   },
@@ -51,7 +51,7 @@ let workoutSeed = [
     exercises: [
       {
         type: "cardio",
-        name: "Running",
+        name: "jog",
         duration: 25,
         distance: 4
       }
@@ -62,11 +62,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Bench Press",
-        duration: 20,
-        weight: 285,
-        reps: 10,
-        sets: 4
+        name: "sit up",
+        duration: 10,
+        weight: 125,
+        reps: 12,
+        sets: 5
       }
     ]
   },
@@ -102,10 +102,10 @@ let workoutSeed = [
       {
         type: "resistance",
         name: "Bench Press",
-        duration: 20,
-        weight: 300,
-        reps: 10,
-        sets: 4
+        duration: 40,
+        weight: 130,
+        reps: 56,
+        sets: 3
       }
     ]
   },
@@ -114,11 +114,11 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Military Press",
-        duration: 20,
-        weight: 300,
-        reps: 10,
-        sets: 4
+        name: "Stand Still",
+        duration: 50,
+        weight: 130,
+        reps: 40,
+        sets: 7
       }
     ]
   },
@@ -128,8 +128,8 @@ let workoutSeed = [
       {
         type: "resistance",
         name: "Bench",
-        duration: 30,
-        distance: 2
+        duration: 20,
+        distance: 5
       }
     ]
   }
