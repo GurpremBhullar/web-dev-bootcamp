@@ -1,18 +1,7 @@
-.jumbotron {
-    background-image: url('images/designImg.jpg');
-    background-size: cover;
-    height: 100%;
-}
-
-.card {
-    padding: 25px;
-}
-
-  
 .thumbnail-project {
     max-width: 550px;
     max-height: 550px;
 } 
 #my-info {
-background-color: red;
+background-color: blue;
 }
