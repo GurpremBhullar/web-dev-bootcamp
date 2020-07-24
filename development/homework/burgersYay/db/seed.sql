@@ -1,6 +1,6 @@
-INSERT INTO burgers (name) VALUES ('Meeses');
-INSERT INTO burgers (name) VALUES ('Bobbi');
-INSERT INTO burgers (name, sleepy) VALUES ('Sylvester', true);
-INSERT INTO burgers (name, sleepy) VALUES ('Marilyn Manson', true);
-INSERT INTO burgers (name, sleepy) VALUES ('Joe Biden', true);
-INSERT INTO burgers (name) VALUES ('Owens');
+INSERT INTO burgers (name) VALUES ('SirachaIndianSprice');
+INSERT INTO burgers (name) VALUES ('friedPotato');
+INSERT INTO burgers (name, indianVeg) VALUES ('Crunch', true);
+INSERT INTO burgers (name, indiansVeg) VALUES ('Moga Style', true);
+INSERT INTO burgers (name, indiansVeg) VALUES ('w/noodles', true);
+INSERT INTO burgers (name) VALUES ('sweet potato burger');
