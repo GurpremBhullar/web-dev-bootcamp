@@ -1,4 +1,4 @@
-function generateMarkdown(answers) {
+function generatemarkdown(answers) {
   return `
 # ${answers.title} 
 
@@ -11,4 +11,4 @@ ${answers.contributing}
 ${answers.tests}
 `;
 }
-module.exports = generateMarkdown;
+module.exports = generatemarkdown;
