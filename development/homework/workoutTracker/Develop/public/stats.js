@@ -130,7 +130,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Pounds Lifted"
+        text: "how much weight"
       },
       scales: {
         yAxes: [
@@ -144,13 +144,13 @@ function populateChart(data) {
     }
   });
 
-  let pieChart = new Chart(pie, {
+  let myChart = new Chart(pie, {
     type: "pie",
     data: {
       labels: workouts,
       datasets: [
         {
-          label: "Excercises Performed",
+          label: "pumped",
           backgroundColor: colors,
           data: durations
         }
@@ -159,18 +159,18 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Excercises Performed"
+        text: "performance"
       }
     }
   });
 
-  let donutChart = new Chart(pie2, {
-    type: "doughnut",
+  let cardioChart = new Chart(pie2, {
+    type: "cChart",
     data: {
       labels: workouts,
       datasets: [
         {
-          label: "Excercises Performed",
+          label: "performance",
           backgroundColor: colors,
           data: pounds
         }
@@ -179,7 +179,7 @@ function populateChart(data) {
     options: {
       title: {
         display: true,
-        text: "Excercises Performed"
+        text: "performance"
       }
     }
   });
