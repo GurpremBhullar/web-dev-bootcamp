@@ -1,0 +1,11 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Creating an employee tracker",
+  "main": "tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
