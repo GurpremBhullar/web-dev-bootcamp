@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "./SearchUser.css";
 import UserContainerContext from "../../utils/UserContainerContext";
 
 const SearchUser = () => {

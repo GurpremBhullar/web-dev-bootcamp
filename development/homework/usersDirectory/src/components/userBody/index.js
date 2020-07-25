@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "./UserBody.css";
 import UserContainerContext from "../../utils/UserContainerContext"
 
 const UserBody = () => {
