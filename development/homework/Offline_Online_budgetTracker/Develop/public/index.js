@@ -91,8 +91,8 @@ function sendTransaction(isAdding) {
 
   
   let transaction = {
-    name: nameEl.value,
-    value: amountEl.value,
+    name: nameGl.value,
+    value: amountGl.value,
     date: new Date().toISOString()
   };
 
@@ -123,12 +123,12 @@ function sendTransaction(isAdding) {
   })
   .then(data => {
     if (data.errors) {
-      errorEl.textContent = "need more info";
+      errorGl.textContent = "need more info";
     }
     else {
       
-      nameEl.value = "";
-      amountEl.value = "";
+      nameGl.value = "";
+      amountGl.value = "";
     }
   })
   .catch(err => {
@@ -136,8 +136,8 @@ function sendTransaction(isAdding) {
     saveRecord(transaction);
 
     
-    nameEl.value = "";
-    amountEl.value = "";
+    nameGl.value = "";
+    amountGl.value = "";
   });
 }
 
