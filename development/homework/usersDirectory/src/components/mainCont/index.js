@@ -1,7 +1,7 @@
 import React from "react";
 import UserContainer from "../UserContainer/index.js";
 
-function MainContainer (){
+function MainCont (){
     return (
         <>
         <UserContainer />
@@ -9,4 +9,4 @@ function MainContainer (){
     );
 };
 
-export default MainContainer;
+export default MainCont;
