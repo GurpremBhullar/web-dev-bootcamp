@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <h1>Lets build a LinkedIn Clone!</h1>
 
       {/*Header */}
+      <Header />
+
 
       {/*App Body */}
       {/* Sidebar */}
