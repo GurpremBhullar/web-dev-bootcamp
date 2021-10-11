@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css";
+import Linkedin from "./linkedin.jpg"
 import SearchIcon from '@mui/icons-material/Search';
-import linkedinPic from './linkedin.jpg';
 import HeaderOption from './HeaderOption';
 import HomeIcon from '@mui/icons-material/Home';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
@@ -12,13 +12,15 @@ function Header() {
             
 
             <div className="header__left">
-                <img src={linkedinPic} alt=" "/>
+                <img
+                 src={Linkedin}  
+                 alt="linkedin" 
+                 />
             </div>
 
             <div className="header__search">
                 <SearchIcon />
                 <input type="text" />
-                
             </div>
 
             <div className="header__right">
