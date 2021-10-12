@@ -35,7 +35,7 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title="BusinessCenter" />
                 <HeaderOption Icon={ChatIcon} title="Chat" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <Avatar alt="gurprem" src={Gurprem} />
+                <Avatar alt="gurprem" src={Gurprem} title="me" />
             </div>
         </div>
     )
