@@ -1,3 +1,4 @@
+import { Feed } from '@mui/icons-material';
 import React from 'react'
 import './App.css';
 import Header from './Header';
@@ -12,11 +13,9 @@ function App() {
       {/*App Body */}
       <div className="app__body">
         <Sidebar />
-      {/* Sidebar */}
-      {/* Feed */}
+        <Feed />        
       {/* Widgets */}
       </div>
-
     </div>
   )
 }
