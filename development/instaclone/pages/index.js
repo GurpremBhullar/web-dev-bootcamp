@@ -40,7 +40,7 @@ export default function Home() {
           >
             <h3 className="text-2xl font-bold">Learn &rarr;</h3>
             <p className="mt-4 text-xl">
-              Testing
+              making my own insta clone.
             </p>
           </a>
 
