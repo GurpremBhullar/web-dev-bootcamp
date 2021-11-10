@@ -32,7 +32,8 @@ export default function Home() {
             <p className="mt-4 text-xl">
               Find in-depth information about Next.js features and API.
             </p>
-            <h1>Another test</h1>
+            <h2>Another test</h2>
+            <p>lets try this again!</p>
           </a>
 
           <a

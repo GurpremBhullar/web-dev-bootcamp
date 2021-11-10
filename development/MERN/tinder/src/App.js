@@ -1,12 +1,21 @@
 import React from 'react'
+import "./App.css";
+import Header from './Header';
+
 
 function App() {
   return (
+    //Bem class naming convention
     <div className="App">
-      <h1>testing1234</h1>
-      
+          
+          <Header />
+
+    {/* TinderCards */}
+
+    {/* SwipeButtons */}
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
